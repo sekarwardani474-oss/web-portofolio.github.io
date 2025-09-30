@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Portofolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h3></h3>
+<p></p>
+<p></p>
+
+<header>
+  <h2>portofolio</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#"><img src="cewek karir.jpg" width="400" height="400"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li>a hret="#"></a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>HI, I'm Sekar Kusuma Wardani</h1>
+    <br>
+    <h3>Web Developer</h3>
+    <p>I love building solid, scalable business websites with great user experiences.</p>
+    <p>I am a web developer who likes to create business websites for other people, and am currently working with the Jati Mulya furniture company.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+<br>
+<br>
+<br>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="w3-container w3-green">
+  <h1>About Me</h1>
+  <p></p>
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-third">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>It is the most populous city in the United Kingdom,
+    with a metropolitan area of over 13 million inhabitants.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p>
+    <p>The Paris area is one of the largest population centers in Europe,
+    with more than 12 million inhabitants.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <p>It is the center of the Greater Tokyo Area,
+    and the most populous metropolitan area in the world.</p>
+  </div>
+</div>
+
+</body>
+</html>
+<br>
+<br>
+
+<address>
+Website by Sekar Kusuma  Wardani.<br> 
+visit our: <a href="https://www.tiktok.com/@jati.mulya.furnit4?_t=ZS-8zxsYgLd4NQ&_r=1">website me</a><br>
+purbalingga,jawa tengah,indonesia<br>
+</address>
+
+
+
+
+
+
+</body>
+</html>
+
 # web-portofolio
