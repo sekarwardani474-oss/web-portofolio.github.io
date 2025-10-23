@@ -95,8 +95,9 @@ padding: 15px;
 color: white;
 }
 
-.embeded > li > img{
-background-color: lightslategray;
-width: 100%;
-height: 250vh;
+.list-style-image{
+  /* Hapus penanda bawaan */
+  list-style-type: none;
+  /* Atur gambar sebagai penanda */
+  list-style-image: url('path/ke/gambar-anda.png');
 }
