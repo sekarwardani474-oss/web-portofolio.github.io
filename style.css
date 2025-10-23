@@ -100,4 +100,7 @@ color: white;
   list-style-type: none;
   /* Atur gambar sebagai penanda */
   list-style-image: url('Screenshot_20251023-202919.jpg');
+  width: 250px;
+height: 250hv;
+border-radius: 250px;
 }
