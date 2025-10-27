@@ -95,12 +95,31 @@ padding: 15px;
 color: white;
 }
 
-.list-style-image{
-  /* Hapus penanda bawaan */
-  list-style-type: none;
-  /* Atur gambar sebagai penanda */
-  list-style-image: url('Screenshot_20251023-202919.jpg');
-  width: 250px;
-height: 250hv;
-border-radius: 250px;
+.halaman {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+background-color: #f0f0f0;
+}
+
+.halaman-gambar {
+height: 100vh;
+overflow: hidden;
+}
+
+.halaman-gambar img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+.halaman-gambar img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
 }
